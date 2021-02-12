@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Holds metadata 
+        information we don't see
+         - links, viewport info, document title, etc.
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Music Blog</title>
+    <!-- <style>
+        body {
+            background-color: aqua;
+            background-color: black;
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+        <!-- 
+            - header can be used for introductory content or a set of navigational links.
+         -->
+         <h1>Music Blog</h1>
+         <nav>
+             <ul>
+                 <!--emmet = li*4 -->
+                 <li><span>Home</span></li>
+                 <li><a href="#">Get Started</a></li> 
+                 <li><a href="#">Photos</a></li> 
+                 <li><a href="#">Forum</a></li> 
+             </ul>
+         </nav>
+    </header>
+    <section>
+        <!-- 
+            The <section> tag defines a section in a doc and has a default value of a block display.  
+         -->
+         <h2>Welcome</h2>
+         <main>
+             <!-- 
+                 - specifies the main content
+                 - There can only be one
+                 - Cannot be a descendant (child) of:
+                    - header
+                    - nav
+                    - article
+                    - aside
+                    - footer
+              -->
+              <article>
+                  <!-- The <article> tag specifies independent, self-contained content. -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, voluptas ipsum doloribus asperiores et commodi. Numquam quisquam quo autem quas ullam quod pariatur maiores necessitatibus, assumenda cupiditate rem exercitationem sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat animi repudiandae expedita recusandae neque illo adipisci blanditiis. Maiores commodi placeat earum officia sapiente? Dolorem maiores in repellendus tenetur minus iure?</p>    
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, voluptas ipsum doloribus asperiores et commodi. Numquam quisquam quo autem quas ullam quod pariatur maiores necessitatibus, assumenda cupiditate rem exercitationem sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat animi repudiandae expedita recusandae neque illo adipisci blanditiis. Maiores commodi placeat earum officia sapiente? Dolorem maiores in repellendus tenetur minus iure?</p>    
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, voluptas ipsum doloribus asperiores et commodi. Numquam quisquam quo autem quas ullam quod pariatur maiores necessitatibus, assumenda cupiditate rem exercitationem sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat animi repudiandae expedita recusandae neque illo adipisci blanditiis. Maiores commodi placeat earum officia sapiente? Dolorem maiores in repellendus tenetur minus iure?</p>   
+                   <!-- Shift + Alt + [down arrow] or [up arrow] to copy quickly  -->
+              </article>
+              <aside>
+                <!-- 
+                    The <aside> tag defines some content aside from the content it is placed in or indirectly related to the surrounding content.
+                 -->
+                 <h2>Favorite Albums</h2>
+                 <!-- a:blank*3>img -->
+                 <a href="./assets/PinkFloyd.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/PinkFloyd.jpg" alt="Division Bell - Pink Floyd"></a>
+                 <a href="./assets/BrokenBells_Amoeba.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/BrokenBells_Amoeba.jpg" alt="Broken Bells"></a>
+                 <a href="./assets/inYourHonor.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/inYourHonor.jpg" alt="Foo Fighters - In Your Honor"></a>
+                 <a href="./assets/TVotR_seeds.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/TVotR_seeds.jpg" alt="TV on the Radio - Seeds"></a>
+              </aside>
+         </main>
+    </section>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae aperiam amet officia velit! Fuga culpa, adipisci repudiandae sed tempore veritatis? Est sunt praesentium ipsum facere quis cupiditate adipisci consectetur? &copy;2021</p>
+    </footer>
+</body>
+</html>
