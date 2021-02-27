@@ -1,0 +1,33 @@
+/*
+
+What does hoisting mean and what does it do? Think if it like opening a book with multiple chapters. One of the first pages in the book might be an index or table of contents with a list of the various chapters you might find. We can look at this page to get an idea of what information nwe can expect to find in the book later.
+
+Hoisitng does this in a similar way. There are two phases that happen when we run our code:
+ - Creation phase: any variable (var, let, const) and function in our code are stored in memory.
+  - Execution phase: Values are assigned to the variables and functions that are in memory during the create phaswe
+
+  let variable = 'value
+;
+
+
+*/
+
+
+
+let num = 12;
+console.log(num);
+
+sayHi()
+
+function sayHi() {
+    console.log('Hello');
+    let hi = 'Hola';
+    console.log(hi);
+}
+
+// not defined
+//varFunc();
+let varFunc = function () {
+    console.log('Testing. Testing.')
+}
+varFunc();

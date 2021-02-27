@@ -40,3 +40,12 @@ for (let element of pies) {
     }
     console.log(element)
 }
+
+for (p of pies) {
+    // console.log(pie,'pie');
+    if(p.includes('apple') || p.includes('blueberry') || p.includes('peach') || p.includes('cherry')) {
+        console.log(`${p} pie is a fruit pie`)
+    } else {
+        console.log(`${p} pie is not a fruit pie.`)
+    }
+}
